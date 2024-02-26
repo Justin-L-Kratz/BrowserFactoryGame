@@ -1,18 +1,22 @@
-html, body {
+html,
+body {
+  margin: 0;
+  padding: 0;
   height: 100%;
-  width: 99%;
+  /* width: 99%; */
+  box-sizing: border-box;
 }
 
-.leftpane{
+.leftpane {
   width: 15%;
   min-width: 200px;
   height: 99%;
-    float: left;
-    background-color: rosybrown;
-    border-collapse: collapse;
+  float: left;
+  background-color: rosybrown;
+  border-collapse: collapse;
 }
 
-.mainbody{
+.mainbody {
   width: 100%;
   height: 100%;
 }
@@ -52,7 +56,6 @@ html, body {
   border-top: none;
 }
 
-
 #ironProg {
   width: 50px;
   background-color: #535350;
@@ -65,7 +68,7 @@ html, body {
 #ironBar {
   width: 0%;
   height: 20px;
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   text-align: center; /* To center it horizontally (if you want) */
   line-height: 20px; /* To center it vertically */
   color: white;
