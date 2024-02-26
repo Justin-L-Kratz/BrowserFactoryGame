@@ -1,0 +1,24 @@
+{
+  "name": "browserfactorygame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justin-L-Kratz/BrowserFactoryGame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Justin-L-Kratz/BrowserFactoryGame/issues"
+  },
+  "homepage": "https://github.com/Justin-L-Kratz/BrowserFactoryGame#readme",
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
